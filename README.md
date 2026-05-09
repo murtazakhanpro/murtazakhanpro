@@ -2,7 +2,7 @@
   <!-- Modern Sleek Header -->
   <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Murtaza%20Ali%20Khan&fontSize=60&animation=fadeIn" width="100%" />
   
-  <h3>🚀 Aspiring AI & Data Science Engineer | Full-Stack Marketer</h3>
+  <h3>🚀 Aspiring AI & Data Science Engineer | Front End Web Developer</h3>
 
   <p>
     <a href="https://www.linkedin.com/in/murtazakhanworld/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
