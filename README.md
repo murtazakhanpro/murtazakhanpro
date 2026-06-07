@@ -1,11 +1,41 @@
-💫 About Me:
-Hi, I’m **Murtaza**, an aspiring AI and Data Science developer from Karachi, Pakistan. I focus on building intelligent systems and solving problems through data.
+# Ghulam Murtaza Khan 🚀
 
-🔭 **I’m currently working on**: Enhancing my Machine Learning model deployments.
-🌱 **I’m currently learning**: Deep Learning and Advanced Statistical Analysis.
-👯 **I’m looking to collaborate on**: Open-source AI projects.
-💬 **Ask me about**: Python or my journey into Data Science.
-⚡ **Fun fact**: I prefer the efficiency of the Linux terminal over a GUI!
+### Aspiring Software Engineer | Python Programming Intern at CodeAlpha | Building Solutions with Code
+
+I am a focused software development professional working at the intersection of **Technology, Code Logic, and Systems Engineering**. My core drive is to leverage Python to build clean, efficient applications, automate complex workflows, and develop practical software solutions for modern industries.
+
+---
+
+### 💼 Professional Experience & Active Focus
+
+* **Python Programming Intern** | [cite_start]*CodeAlpha* *(June 2026 – Present)* [cite: 4, 8, 9]
+  * Developing hands-on software solutions, focusing on algorithmic logic, object-oriented programming (OOP), and functional data workflows.
+* **Proptech Integration**
+  * Applying software engineering principles, script automation, and digital transformation strategies to streamline real estate and construction system data.
+
+---
+
+### 🛠️ Technical Skill Stack
+
+* **Programming Languages:** Python (OOP, Data Validation, Functional Logic)
+* **Frameworks & Web UI:** Streamlit, Modern Web Interface Concepts
+* **Tools & Environments:** Linux (Ubuntu/Mint), Version Control (Git & GitHub), Software Architecture
+
+---
+
+### 📂 Proof of Work (Key Projects)
+
+* 🐍 [User Configuration Manager](https://github.com/murtazakhanpro) — A Python system utility demonstrating dictionary manipulation, data validation, and clean file handling.
+* 🏗️ [CodeAlpha Internship Hub](https://github.com/murtazakhanworld) — A dedicated space capturing the scripts, problem-solving workflows, and applications built during my internship.
+
+---
+
+### 🌐 Let's Connect
+
+Recruiters and collaborators can easily reach out or explore my work via:
+
+* **Personal Portfolio:** [murtazaalikhan.com](https://www.murtazaalikhan.com)
+* **LinkedIn Profile:** [linkedin.com/in/murtazakhanpro](https://www.linkedin.com/in/murtazakhanworld)
 
 
 ## 🌐 Socials:
