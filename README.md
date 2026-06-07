@@ -22,8 +22,9 @@ Hi, I’m **Murtaza**, an aspiring AI and Data Science developer from Karachi, P
 
 # 📊 GitHub Stats:
 <!--[](https://github-readme-stats.shion.dev/api?username=murtazakhanpro&theme=default&hide_border=false&include_all_commits=true&count_private=true)<br/>-->
-![](https://streak-stats.demolab.com/?user=murtazakhanpro&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=murtazakhanpro&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<!--![](https://streak-stats.demolab.com/?user=murtazakhanpro&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=murtazakhanpro&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) -->
+
 
 
 ### 🔝 Top Contributed Repo
