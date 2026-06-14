@@ -1,4 +1,4 @@
-# Ghulam Murtaza Khan 🚀
+# Murtaza Ali 🚀
 
 ### AI and Data Science Engineer | Python Programming Intern at CodeAlpha | Building Solutions with Code
 
