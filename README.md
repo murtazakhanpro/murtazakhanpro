@@ -1,6 +1,6 @@
 # Ghulam Murtaza Khan 🚀
 
-### Aspiring Software Engineer | Python Programming Intern at CodeAlpha | Building Solutions with Code
+### AI and Data Science Engineer | Python Programming Intern at CodeAlpha | Building Solutions with Code
 
 I am a focused software development professional working at the intersection of **Technology, Code Logic, and Systems Engineering**. My core drive is to leverage Python to build clean, efficient applications, automate complex workflows, and develop practical software solutions for modern industries.
 
