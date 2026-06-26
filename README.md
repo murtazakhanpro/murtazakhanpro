@@ -8,6 +8,9 @@ I am a focused software development professional working at the intersection of 
 
 ### 💼 Professional Experience & Active Focus
 
+* **Data Analytic Intern** | Remote *Arch_Technologies* *(June 2026 – Present)* [cite: 4, 8, 9]
+  * Numpy, Pandas, Seaborn, Matplotlib, Complete Data Analysis Using Python.
+
 * **Python Programming Intern** | Remote *CodeAlpha* *(June 2026 – Present)* [cite: 4, 8, 9]
   * Developing hands-on software solutions, focusing on algorithmic logic, object-oriented programming (OOP), and functional data workflows.
 * **Proptech Integration**
