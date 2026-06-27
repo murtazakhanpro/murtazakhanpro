@@ -1,5 +1,24 @@
-# 💫 About Me:
-I am a focused software development professional working at the intersection of **Technology, Code Logic, and Systems Engineering**. My core drive is to leverage Python to build clean, efficient applications, automate complex workflows, extract web data, and develop practical software solutions for modern industries.<br>
+markdown# Murtaza Ali 🚀
+
+### AI & Data Science Engineer | Data Analyst Intern at Arch_Technologies | Python Programming Intern at CodeAlpha
+
+I am a focused software development professional working at the intersection of **Technology, Code Logic, and Systems Engineering**. My core drive is to leverage Python to build clean, efficient applications, automate complex workflows, extract web data, and develop practical software solutions for modern industries.
+
+---
+
+### 💼 Professional Experience & Active Focus
+
+* **Data Analyst Intern** | Remote *Arch_Technologies* *(June 2026 – Present)*
+  * Performing comprehensive data engineering and exploratory data analysis (EDA).
+  * Utilizing statistical packages to uncover actionable insights from diverse datasets.
+  * Building optimized data cleaning pipelines using NumPy and Pandas.
+
+* **Python Programming Intern** | Remote *CodeAlpha* *(June 2026 – Present)*
+  * Developing hands-on software solutions, focusing on algorithmic logic, object-oriented programming (OOP), and functional data workflows.
+  * Creating responsive, web-based internal tools and prototype dashboards.
+
+* **Proptech Integration**
+  * Applying software engineering principles, script automation, and digital transformation strategies to streamline real estate and construction system data.
 
 
 ## 🌐 Socials:
