@@ -23,7 +23,7 @@ Focused software professional working at the intersection of **Technology, Code 
 ---
 
 # 💻 Tech Stack:
-![Python](https://shields.io) ![NumPy](https://shields.io) ![Pandas](https://shields.io) ![scikit-learn](https://shields.io) ![PyTorch](https://shields.io) ![TensorFlow](https://shields.io) ![Keras](https://shields.io) ![OpenCV](https://shields.io) ![Hugging Face](https://shields.io) ![LangChain](https://img.shields.io/badge/🦜🔗%20LangChain-1C3C3A?style=for-the-badge) ![Streamlit](https://shields.io) ![Matplotlib](https://shields.io) ![Plotly](https://shields.io) ![ggplot2](https://shields.io) ![Jupyter](https://shields.io) ![Git](https://shields.io) 
+![Python](https://shields.io) ![NumPy](https://shields.io) ![Pandas](https://shields.io) ![scikit-learn](https://shields.io) ![PyTorch](https://shields.io) ![TensorFlow](https://shields.io) ![Keras](https://shields.io) ![OpenCV](https://shields.io) ![Hugging Face](https://shields.io) ![LangChain](https://img.shields.io/badge/🦜🔗%20LangChain-1C3C3A?style=for-the-badge) ![Streamlit](https://shields.io) ![Matplotlib](https://shields.io) ![Plotly](https://shields.io) ![ggplot2](https://shields.io) ![Jupyter](https://shields.io) ![Git](https://shields.io)
 
 ---
 
