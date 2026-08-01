@@ -1,6 +1,6 @@
 # Murtaza Ali 🚀
 
-### AI & Data Science Engineer | Data Analyst Intern at Arch_Technologies | Python Programming Intern at CodeAlpha
+## AI & Data Science Engineer | Data Analyst Intern @ Arch_Technologies
 
 I am a focused software development professional working at the intersection of **Technology, Code Logic, and Systems Engineering**. My core drive is to leverage Python to build clean, efficient applications, automate complex workflows, extract web data, and develop practical software solutions for modern industries.
 
