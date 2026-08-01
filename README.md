@@ -8,19 +8,17 @@ I am a focused software development professional working at the intersection of 
 
 ### 💼 Professional Experience & Active Focus
 
-* **Data Analyst Intern** | Remote *Arch_Technologies* *(June 2026 – Present)*
-  * Performing comprehensive data engineering and exploratory data analysis (EDA).
-  * Utilizing statistical packages to uncover actionable insights from diverse datasets.
-  * Building optimized data cleaning pipelines using NumPy and Pandas.
+I am a passionate Data Scientist & AI Specialist focused on transforming raw data into actionable business intelligence and intelligent machine learning solutions. My work spans the complete data lifecycle—from hands-on data manipulation and statistical analysis to building, evaluating, and deploying machine learning models.
+With a strong foundation in Python and data analytics, I specialize in extracting deep insights using tools like Pandas and NumPy, while continuously expanding into advanced Machine Learning and AI workflows. Beyond traditional analytics, I am actively building real-world projects, maintaining an enterprise-grade GitHub portfolio, and delivering practical freelancing solutions that drive actual business value.
 
-* **Python Programming Intern** | Remote *CodeAlpha* *(June 2026 – Present)*
-  * Developing hands-on software solutions, focusing on algorithmic logic, object-oriented programming (OOP), and functional data workflows.
-  * Creating responsive, web-based internal tools and prototype dashboards.
-
-* **Proptech Integration**
-  * Applying software engineering principles, script automation, and digital transformation strategies to streamline real estate and construction system data.
-
----
+🔍 Key Areas of Expertise:
+Data Science & Analytics: Data Preprocessing, EDA, Feature Engineering
+Core Tech Stack: Python, Pandas, NumPy, Scikit-Learn
+Machine Learning: Model Development, Evaluation, & Predictive Analytics
+Portfolio & Freelancing: End-to-End Project Execution & Technical Documentation
+Problem Solving: Data-Driven Decision Making & Workflow Automation
+I thrive on tackling complex data challenges and constantly evolving with the AI landscape.
+📩 Open to Data Science, Machine Learning, and Data Analyst roles—feel free to connect or reach out!
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/murtazakhanworld) [![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/murtazakhanpro)
