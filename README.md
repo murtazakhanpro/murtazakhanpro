@@ -12,10 +12,18 @@ I am a passionate Data Scientist & AI Specialist focused on transforming raw dat
 With a strong foundation in Python and data analytics, I specialize in extracting deep insights using tools like Pandas and NumPy, while continuously expanding into advanced Machine Learning and AI workflows. Beyond traditional analytics, I am actively building real-world projects, maintaining an enterprise-grade GitHub portfolio, and delivering practical freelancing solutions that drive actual business value.
 
 🔍 Key Areas of Expertise:
-Data Science & Analytics: Data Preprocessing, EDA, Feature Engineering
-Core Tech Stack: Python, Pandas, NumPy, Scikit-Learn
-Machine Learning: Model Development, Evaluation, & Predictive Analytics
-Portfolio & Freelancing: End-to-End Project Execution & Technical Documentation
+## Data Science & Analytics: 
+Data Preprocessing, EDA, Feature Engineering
+
+## Core Tech Stack: 
+Python, Pandas, NumPy, Scikit-Learn
+
+## Machine Learning: 
+Model Development, Evaluation, & Predictive Analytics
+
+## Portfolio & Freelancing: 
+End-to-End Project Execution & Technical Documentation
+
 Problem Solving: Data-Driven Decision Making & Workflow Automation
 I thrive on tackling complex data challenges and constantly evolving with the AI landscape.
 📩 Open to Data Science, Machine Learning, and Data Analyst roles—feel free to connect or reach out!
