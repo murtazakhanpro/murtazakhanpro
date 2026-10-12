@@ -18,3 +18,4 @@
 # ── Whitelist: Service gig images (used in README table) ──
 !services/
 !services/*
+terminal
