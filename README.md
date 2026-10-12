@@ -22,12 +22,6 @@
   </a>
 </p>
 
-</p>
-
-  <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
-  </a>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ROLE-LEAD%20DATA%20SCIENTIST-cf9f7a?style=flat-square&label=LYNTICA&labelColor=17181e&color=B58763" alt="Lyntica Lead" />
@@ -36,6 +30,12 @@
   <img src="https://img.shields.io/badge/AVAILABILITY-OPEN%20FOR%20ROLES%20%26%20CONSULTING-10b981?style=flat-square&label=STATUS&labelColor=17181e&color=10b981" alt="Status Active" />
 </p>
 
+</p>
+
+  <a href="https://www.murtazaalikhan.com" target="_blank">
+    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
+  </a>
+</p>
 
 
 ---
