@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="./Murtaza_Linkedin_Cover.png" alt="Murtaza Ali Khan - LinkedIn Header Banner" width="100%" />
+    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
   </a>
 </p>
 
@@ -29,10 +29,7 @@
   <img src="https://img.shields.io/badge/AVAILABILITY-OPEN%20FOR%20ROLES%20%26%20CONSULTING-10b981?style=flat-square&label=STATUS&labelColor=17181e&color=10b981" alt="Status Active" />
 </p>
 
-<!-- Live Animated Bash Terminal Banner (Cloud Streamed) -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=CF9F7A&background=141414&center=true&vCenter=true&width=780&height=45&lines=Murtaza+Ali+%7C+AI+%26+Data+Science+Engineer;Python+Architecture+Specialist;Lead+Data+Scientist+at+Lyntica" alt="Murtaza Ali Dynamic Roles" />
-</p>
+
 
 ---
 
