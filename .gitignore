@@ -1,8 +1,8 @@
 # ==============================================================================
 # MURTAZA ALI KHAN — PROPRIETARY REPOSITORY GITIGNORE
 # Strategy: Whitelist-only — blocks everything EXCEPT essential README assets.
-# Public files: README.md, LICENSE, .gitignore, terminal.svg, services/
-# All other assets (raw gigs, PDFs, profile images, datasets) stay private.
+# Public files: README.md, LICENSE, .gitignore, assets/
+# All other raw/temp files stay private.
 # ==============================================================================
 
 # Block everything by default
@@ -13,9 +13,7 @@
 !README.md
 !LICENSE
 !.gitignore
-!terminal.svg
 
-# ── Whitelist: Service gig images (used in README table) ──
-!services/
-!services/*
-
+# ── Whitelist: Unified assets directory ──
+!assets/
+!assets/**

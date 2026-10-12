@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="Murtaza_Linkedin_Cover.png" alt="Murtaza Ali Khan — LinkedIn Banner" width="100%" />
+    <img src="./assets/cover.png" alt="Murtaza Ali Khan — LinkedIn Banner" width="100%" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
+    <img src="./assets/terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
   </a>
 </p>
 
@@ -64,45 +64,45 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
 
 <div align="center">
 
-| Service &amp; Gig Overview | Architectural Deliverables &amp; Core Capabilities |
+| Service & Gig Overview | Architectural Deliverables & Core Capabilities |
 | :--- | :--- |
-| <a href="https://www.murtazaalikhan.com" target="_blank"><img src="./services/computer_vision_gig.jpg" width="310" alt="Computer Vision Services & Gigs" /></a><br><sub><font color="#38bdf8"><b>Real-Time Computer Vision &bull; Edge Inference</b></font></sub> | **Computer Vision &amp; Spatial Video Intelligence**<br>• Custom object detection, classification &amp; segmentation with YOLOv8 &amp; YOLOv11.<br>• Real-time multi-target tracking with ByteTrack, DeepSORT &amp; BoT-SORT (Kalman filtering).<br>• High-FPS video streaming inference over RTSP, CCTV feeds &amp; edge hardware.<br>• Model quantization, custom dataset annotation (Roboflow), and Streamlit testing UIs.<br>• **Deliverables:** Trained weights (`.pt`, `.onnx`), streaming scripts, Docker containers, live demo UI.<br>• **Stack:** `PyTorch` &bull; `OpenCV` &bull; `YOLOv8/v11` &bull; `ByteTrack` &bull; `DeepSORT` &bull; `Streamlit` |
-| <a href="https://www.murtazaalikhan.com" target="_blank"><img src="./services/web_app_gig.jpg" width="310" alt="Full-Stack Web AI Development" /></a><br><sub><font color="#cf9f7a"><b>Full-Stack Python &bull; Asynchronous APIs</b></font></sub> | **Production AI Web Platforms &amp; Microservices**<br>• High-performance REST APIs &amp; microservices built with FastAPI &amp; Flask.<br>• Strongly typed request validation using Pydantic, automated OpenAPI/Swagger documentation.<br>• Enterprise-grade Model-View-Controller (MVC) architecture with strict OOP principles.<br>• Concurrency-safe relational database integrations (PostgreSQL, SQL) with mutex protection.<br>• **Deliverables:** Containerized web app, Swagger API docs, Streamlit/Gradio UI, Dockerfile.<br>• **Stack:** `Python` &bull; `FastAPI` &bull; `Flask` &bull; `Docker` &bull; `Pydantic` &bull; `SQL` &bull; `Streamlit` |
-| <a href="https://www.murtazaalikhan.com" target="_blank"><img src="./services/consultation_gig.jpg" width="310" alt="AI Consulting & Architecture" /></a><br><sub><font color="#8352a1"><b>1-on-1 Consulting &bull; Workflow Automation</b></font></sub> | **AI Consulting, Architecture Audits &amp; Automation**<br>• 1-on-1 strategic technical advisory: model selection, pipeline design &amp; latency optimization.<br>• Leak-free tabular pipeline design (ColumnTransformer, cross-validation, hyperparameter search).<br>• LLM workflow orchestration, prompt engineering &amp; Retrieval-Augmented Generation (RAG).<br>• Automated API workflows and business tool integration using n8n webhooks.<br>• **Deliverables:** Technical architecture blueprint, evaluation report, reproducible pipeline code.<br>• **Stack:** `n8n` &bull; `RAG` &bull; `LangChain` &bull; `Scikit-learn` &bull; `XGBoost` &bull; `FastAPI` |
+| <a href="https://www.murtazaalikhan.com" target="_blank"><img src="./assets/services/computer_vision_gig.jpg" width="310" alt="Computer Vision Services & Gigs" /></a><br><sub><font color="#38bdf8"><b>Real-Time Computer Vision &bull; Edge Inference</b></font></sub> | **Computer Vision & Spatial Video Intelligence**<br>• Custom object detection, classification & segmentation with YOLOv8 & YOLOv11.<br>• Real-time multi-target tracking with ByteTrack, DeepSORT & BoT-SORT (Kalman filtering).<br>• High-FPS video streaming inference over RTSP, CCTV feeds & edge hardware.<br>• Model quantization, custom dataset annotation (Roboflow), and Streamlit testing UIs.<br>• **Deliverables:** Trained weights (`.pt`, `.onnx`), streaming scripts, Docker containers, live demo UI.<br>• **Stack:** `PyTorch` &bull; `OpenCV` &bull; `YOLOv8/v11` &bull; `ByteTrack` &bull; `DeepSORT` &bull; `Streamlit` |
+| <a href="https://www.murtazaalikhan.com" target="_blank"><img src="./assets/services/web_app_gig.jpg" width="310" alt="Full-Stack Web AI Development" /></a><br><sub><font color="#cf9f7a"><b>Full-Stack Python &bull; Asynchronous APIs</b></font></sub> | **Production AI Web Platforms & Microservices**<br>• High-performance REST APIs & microservices built with FastAPI & Flask.<br>• Strongly typed request validation using Pydantic, automated OpenAPI/Swagger documentation.<br>• Enterprise-grade Model-View-Controller (MVC) architecture with strict OOP principles.<br>• Concurrency-safe relational database integrations (PostgreSQL, SQL) with mutex protection.<br>• **Deliverables:** Containerized web app, Swagger API docs, Streamlit/Gradio UI, Dockerfile.<br>• **Stack:** `Python` &bull; `FastAPI` &bull; `Flask` &bull; `Docker` &bull; `Pydantic` &bull; `SQL` &bull; `Streamlit` |
+| <a href="https://www.murtazaalikhan.com" target="_blank"><img src="./assets/services/consultation_gig.jpg" width="310" alt="AI Consulting & Architecture" /></a><br><sub><font color="#8352a1"><b>1-on-1 Consulting &bull; Workflow Automation</b></font></sub> | **AI Consulting, Architecture Audits & Automation**<br>• 1-on-1 strategic technical advisory: model selection, pipeline design & latency optimization.<br>• Leak-free tabular pipeline design (ColumnTransformer, cross-validation, hyperparameter search).<br>• LLM workflow orchestration, prompt engineering & Retrieval-Augmented Generation (RAG).<br>• Automated API workflows and business tool integration using n8n webhooks.<br>• **Deliverables:** Technical architecture blueprint, evaluation report, reproducible pipeline code.<br>• **Stack:** `n8n` &bull; `RAG` &bull; `LangChain` &bull; `Scikit-learn` &bull; `XGBoost` &bull; `FastAPI` |
 
 </div>
 
 ---
 
-### 🚀 Flagship Production Pipelines &amp; Selected Projects
+### 🚀 Flagship Production Pipelines & Selected Projects
 
 <div align="center">
 
-| Project Showcase | Architecture &amp; Technical Highlights |
+| Project Showcase | Architecture & Technical Highlights |
 | :--- | :--- |
-| <a href="https://github.com/murtazakhanpro"><img src="https://www.murtazaalikhan.com/assets/projects/computer_vision_hero.jpg" width="310" alt="Real-Time Detection & Tracking" /></a><br><sub><font color="#38bdf8"><b>Computer Vision &bull; 45+ FPS</b></font></sub> | **Real-Time Object Detection &amp; Spatial Tracking**<br>• High-throughput perception pipeline wrapping OpenCV streaming and Ultralytics YOLO with ByteTrack.<br>• Kalman filter state covariance maintains stable track IDs across dense occlusions without bounding box jitter.<br>• Interactive Streamlit dashboard for real-time confidence and IoU threshold adjustment.<br>• **Stack:** `YOLOv8/v11` &bull; `OpenCV` &bull; `ByteTrack` &bull; `PyTorch` &bull; `Streamlit` &bull; `NumPy` |
-| <a href="https://github.com/murtazakhanpro"><img src="https://www.murtazaalikhan.com/assets/projects/ml_car_price_pipeline.jpg" width="310" alt="Leak-Free Tabular Pipeline" /></a><br><sub><font color="#cf9f7a"><b>Tabular Machine Learning &bull; R² = 0.91</b></font></sub> | **Leak-Free ML Pipelines for Tabular Estimation**<br>• End-to-end industrial regression engine resolving non-linear depreciation and high-cardinality features.<br>• Enforces zero data leakage: combines automated imputation, scaling, and one-hot encoding inside a single `ColumnTransformer` fitted strictly on training folds.<br>• Evaluates Random Forest, XGBoost, and LightGBM with Stratified K-Fold CV; exported via `joblib`.<br>• **Stack:** `Scikit-learn` &bull; `ColumnTransformer` &bull; `XGBoost` &bull; `LightGBM` &bull; `Pandas` &bull; `Joblib` |
-| <a href="https://github.com/murtazakhanpro"><img src="https://www.murtazaalikhan.com/assets/projects/sms_spam_detection.jpg" width="310" alt="NLP Intent Classifier API" /></a><br><sub><font color="#38bdf8"><b>NLP Microservice &bull; 98.7% Test Accuracy</b></font></sub> | **NLP Intent Classifier as a Production API with RAG**<br>• Real-time text classification microservice processing streaming inbound messages for intent routing.<br>• TF-IDF vectorization with dense neural tensors and Dropout regularizers served via FastAPI.<br>• Orchestrated with n8n webhook workflows to route incoming queries and trigger LLM responses with retrieval.<br>• **Stack:** `FastAPI` &bull; `Pydantic` &bull; `TensorFlow` &bull; `NLTK` &bull; `n8n` &bull; `RAG` &bull; `Docker` |
-| <a href="https://github.com/murtazakhanpro/lyntica_property_management_system"><img src="https://www.murtazaalikhan.com/assets/projects/python_dual_monitors.jpg" width="310" alt="Lyntica Property Management" /></a><br><sub><font color="#cf9f7a"><b>Enterprise Systems &bull; Concurrency Safe</b></font></sub> | **Lyntica Property Management System**<br>• Mission-critical enterprise platform with automated billing schedules and tenant-lease lifecycle tracking.<br>• Strict OOP MVC architecture with database mutex locks ensuring zero race conditions under concurrent workloads.<br>• **Stack:** `Python` &bull; `Relational SQL` &bull; `MVC Pattern` &bull; `Strict OOP` &bull; `Threading` |
-| <a href="https://github.com/murtazakhanpro/mini_banking_system"><img src="https://www.murtazaalikhan.com/assets/projects/python_desk_setup.jpg" width="310" alt="Mini Banking System" /></a><br><sub><font color="#10b981"><b>Cryptography &bull; 100% ACID</b></font></sub> | **Mini Banking Core Transaction System**<br>• High-integrity ledger engine executing double-entry bookkeeping and cryptographic hash verification.<br>• Thread-safe compound interest engine and atomic balance reconciliation under concurrent transactions.<br>• **Stack:** `Python` &bull; `Cryptography` &bull; `Double-Entry Ledger` &bull; `Thread Safety` |
-| <a href="https://github.com/murtazakhanpro/data-scraping"><img src="https://www.murtazaalikhan.com/assets/projects/data_science_dashboard.jpg" width="310" alt="Web Extraction & ETL" /></a><br><sub><font color="#cf9f7a"><b>Data Engineering &bull; ETL Engine</b></font></sub> | **Automated Web Extraction &amp; ETL Engine**<br>• Resilient scraping framework featuring header rotation, rate-limiting safeguards, and dynamic JS execution.<br>• Automated data sanitization transforming raw unstructured HTML into analytics-ready Pandas DataFrames.<br>• **Stack:** `Python` &bull; `BeautifulSoup` &bull; `Pandas` &bull; `ETL Pipelines` &bull; `Data Sanitization` |
+| <a href="https://github.com/murtazakhanpro"><img src="./assets/projects/computer_vision_hero.jpg" width="310" alt="Real-Time Detection & Tracking" /></a><br><sub><font color="#38bdf8"><b>Computer Vision &bull; 45+ FPS</b></font></sub> | **Real-Time Object Detection & Spatial Tracking**<br>• High-throughput perception pipeline wrapping OpenCV streaming and Ultralytics YOLO with ByteTrack.<br>• Kalman filter state covariance maintains stable track IDs across dense occlusions without bounding box jitter.<br>• Interactive Streamlit dashboard for real-time confidence and IoU threshold adjustment.<br>• **Stack:** `YOLOv8/v11` &bull; `OpenCV` &bull; `ByteTrack` &bull; `PyTorch` &bull; `Streamlit` &bull; `NumPy` |
+| <a href="https://github.com/murtazakhanpro"><img src="./assets/projects/ml_car_price_pipeline.jpg" width="310" alt="Leak-Free Tabular Pipeline" /></a><br><sub><font color="#cf9f7a"><b>Tabular Machine Learning &bull; R² = 0.91</b></font></sub> | **Leak-Free ML Pipelines for Tabular Estimation**<br>• End-to-end industrial regression engine resolving non-linear depreciation and high-cardinality features.<br>• Enforces zero data leakage: combines automated imputation, scaling, and one-hot encoding inside a single `ColumnTransformer` fitted strictly on training folds.<br>• Evaluates Random Forest, XGBoost, and LightGBM with Stratified K-Fold CV; exported via `joblib`.<br>• **Stack:** `Scikit-learn` &bull; `ColumnTransformer` &bull; `XGBoost` &bull; `LightGBM` &bull; `Pandas` &bull; `Joblib` |
+| <a href="https://github.com/murtazakhanpro"><img src="./assets/projects/sms_spam_detection.jpg" width="310" alt="NLP Intent Classifier API" /></a><br><sub><font color="#38bdf8"><b>NLP Microservice &bull; 98.7% Test Accuracy</b></font></sub> | **NLP Intent Classifier as a Production API with RAG**<br>• Real-time text classification microservice processing streaming inbound messages for intent routing.<br>• TF-IDF vectorization with dense neural tensors and Dropout regularizers served via FastAPI.<br>• Orchestrated with n8n webhook workflows to route incoming queries and trigger LLM responses with retrieval.<br>• **Stack:** `FastAPI` &bull; `Pydantic` &bull; `TensorFlow` &bull; `NLTK` &bull; `n8n` &bull; `RAG` &bull; `Docker` |
+| <a href="https://github.com/murtazakhanpro/lyntica_property_management_system"><img src="./assets/projects/python_dual_monitors.jpg" width="310" alt="Lyntica Property Management" /></a><br><sub><font color="#cf9f7a"><b>Enterprise Systems &bull; Concurrency Safe</b></font></sub> | **Lyntica Property Management System**<br>• Mission-critical enterprise platform with automated billing schedules and tenant-lease lifecycle tracking.<br>• Strict OOP MVC architecture with database mutex locks ensuring zero race conditions under concurrent workloads.<br>• **Stack:** `Python` &bull; `Relational SQL` &bull; `MVC Pattern` &bull; `Strict OOP` &bull; `Threading` |
+| <a href="https://github.com/murtazakhanpro/mini_banking_system"><img src="./assets/projects/python_desk_setup.jpg" width="310" alt="Mini Banking System" /></a><br><sub><font color="#10b981"><b>Cryptography &bull; 100% ACID</b></font></sub> | **Mini Banking Core Transaction System**<br>• High-integrity ledger engine executing double-entry bookkeeping and cryptographic hash verification.<br>• Thread-safe compound interest engine and atomic balance reconciliation under concurrent transactions.<br>• **Stack:** `Python` &bull; `Cryptography` &bull; `Double-Entry Ledger` &bull; `Thread Safety` |
+| <a href="https://github.com/murtazakhanpro/data-scraping"><img src="./assets/projects/data_science_dashboard.jpg" width="310" alt="Web Extraction & ETL" /></a><br><sub><font color="#cf9f7a"><b>Data Engineering &bull; ETL Engine</b></font></sub> | **Automated Web Extraction & ETL Engine**<br>• Resilient scraping framework featuring header rotation, rate-limiting safeguards, and dynamic JS execution.<br>• Automated data sanitization transforming raw unstructured HTML into analytics-ready Pandas DataFrames.<br>• **Stack:** `Python` &bull; `BeautifulSoup` &bull; `Pandas` &bull; `ETL Pipelines` &bull; `Data Sanitization` |
 
 </div>
 
 ---
 
-### 🛠️ Technical Ecosystem &amp; Stack Matrix
+### 🛠️ Technical Ecosystem & Stack Matrix
 
 <table>
   <thead>
     <tr>
       <th width="28%" align="left"><font color="#cf9f7a">LAYER</font></th>
-      <th width="72%" align="left"><font color="#cf9f7a">TECHNOLOGIES &amp; FRAMEWORKS</font></th>
+      <th width="72%" align="left"><font color="#cf9f7a">TECHNOLOGIES & FRAMEWORKS</font></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b>Core &amp; Architecture</b></td>
+      <td><b>Core & Architecture</b></td>
       <td>
         <img src="https://img.shields.io/badge/Python_(Advanced)-17181e?style=flat-square&logo=python&logoColor=cf9f7a&labelColor=20212b" alt="Python" />
         <img src="https://img.shields.io/badge/SQL_(PostgreSQL/MySQL)-17181e?style=flat-square&logo=postgresql&logoColor=cf9f7a&labelColor=20212b" alt="SQL" />
@@ -113,7 +113,7 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
       </td>
     </tr>
     <tr>
-      <td><b>AI, Vision &amp; Deep Learning</b></td>
+      <td><b>AI, Vision & Deep Learning</b></td>
       <td>
         <img src="https://img.shields.io/badge/PyTorch-17181e?style=flat-square&logo=pytorch&logoColor=cf9f7a&labelColor=20212b" alt="PyTorch" />
         <img src="https://img.shields.io/badge/TensorFlow-17181e?style=flat-square&logo=tensorflow&logoColor=cf9f7a&labelColor=20212b" alt="TensorFlow" />
@@ -127,7 +127,7 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
       </td>
     </tr>
     <tr>
-      <td><b>Data Eng &amp; MLOps</b></td>
+      <td><b>Data Eng & MLOps</b></td>
       <td>
         <img src="https://img.shields.io/badge/Pandas-17181e?style=flat-square&logo=pandas&logoColor=cf9f7a&labelColor=20212b" alt="Pandas" />
         <img src="https://img.shields.io/badge/NumPy-17181e?style=flat-square&logo=numpy&logoColor=cf9f7a&labelColor=20212b" alt="NumPy" />
@@ -142,7 +142,7 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
       </td>
     </tr>
     <tr>
-      <td><b>Cloud &amp; Big Data</b></td>
+      <td><b>Cloud & Big Data</b></td>
       <td>
         <img src="https://img.shields.io/badge/Apache_Spark-Cluster_Compute-17181e?style=flat-square&logo=apachespark&logoColor=cf9f7a&labelColor=20212b" alt="Apache Spark" />
         <img src="https://img.shields.io/badge/Databricks-Lakehouse-17181e?style=flat-square&logo=databricks&logoColor=cf9f7a&labelColor=20212b" alt="Databricks" />
@@ -155,7 +155,7 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
 
 ---
 
-### 🧠 Technical Mentorship &amp; Verified Credentials
+### 🧠 Technical Mentorship & Verified Credentials
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -172,7 +172,7 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
 * 🏆 **1-Year Diploma in Computer Information Technology (CIT)** &mdash; Board of Technical Education, Karachi
   * **Result**: **Grade A (85% Distinction)**
   * Comprehensive core foundations covering C/C++, Database Normalization, Systems Architecture, and Network Protocols.
-* 🤖 **AI &amp; Data Science Program** &mdash; Saylani Mass IT Training (SMIT), Karachi
+* 🤖 **AI & Data Science Program** &mdash; Saylani Mass IT Training (SMIT), Karachi
   * Project-based engineering in Computer Vision (OpenCV/YOLO), Deep Learning (TensorFlow/Keras), NLP, and automated workflow pipelines.
 * 📜 **Machine Learning Specialization** &mdash; Andrew Ng / DeepLearning.AI on Coursera
   * **Credential ID**: `OYS34AEB7J8N` &bull; [Verify on Coursera](https://coursera.org/verify/OYS34AEB7J8N)
@@ -182,7 +182,7 @@ I am an **Applied AI & Full-Stack MLOps Engineer** specializing in productionizi
 
 ---
 
-### 📡 Verified Channels &amp; Dispatch Hub
+### 📡 Verified Channels & Dispatch Hub
 
 Connect directly for architectural consultations, enterprise MLOps engagements, or 1-on-1 engineering mentorship:
 
@@ -218,7 +218,7 @@ Connect directly for architectural consultations, enterprise MLOps engagements, 
 
 <p align="center">
   <font color="#71717a" size="2">
-    <i>⚖️ <b>Legal &amp; Proprietary Notice</b>: The design system, custom badges, and architecture diagrams in this repository are proprietary intellectual property. Unauthorized cloning, automated scraping, or commercial mirroring is strictly prohibited under the <a href="./LICENSE">repository license</a>.<br>
+    <i>⚖️ <b>Legal & Proprietary Notice</b>: The design system, custom badges, and architecture diagrams in this repository are proprietary intellectual property. Unauthorized cloning, automated scraping, or commercial mirroring is strictly prohibited under the <a href="./LICENSE">repository license</a>.<br>
     Engineered with deterministic logic in Karachi, PK &bull; Deployed globally &bull; &copy; 2026 Murtaza Ali Khan</i>
   </font>
 </p>
