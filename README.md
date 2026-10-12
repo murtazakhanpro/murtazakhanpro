@@ -4,6 +4,11 @@
   </a>
 </p>
 
+  <a href="https://www.murtazaalikhan.com" target="_blank">
+    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
+  </a>
+</p>
+
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-murtazaalikhan.com-141414?style=for-the-badge&logo=googlechrome&logoColor=cf9f7a&labelColor=20212b" alt="Portfolio Website" />
