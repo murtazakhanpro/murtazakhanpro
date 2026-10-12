@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="380" fill="none">
+  <!--
+    ============================================================
+    MURTAZA ALI KHAN — ANIMATED TERMINAL BANNER v3.0
+    Palette: murtazaalikhan.com (Obsidian & Warm Ochre)
+      Obsidian:   #0a0b0e  #141414  #17181e  #20212b
+      Warm Ochre: #cf9f7a  #B58763  #8a6240
+      Purple:     #5A376F  #8352a1  #361942
+      Accent:     #38bdf8  #10b981  #f4f4f6  #a1a1aa
+    © 2026 Murtaza Ali Khan — All Rights Reserved
+    ============================================================
+  -->
+  <defs>
+    <!-- === GRADIENTS === -->
+    <linearGradient id="grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0a0b0e"/>
+      <stop offset="55%"  stop-color="#141414"/>
+      <stop offset="100%" stop-color="#0e0f16"/>
+    </linearGradient>
+
+    <linearGradient id="grad-titlebar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#17181e"/>
+      <stop offset="100%" stop-color="#20212b"/>
+    </linearGradient>
+
+    <!-- Glowing border: Ochre → Purple → Ochre -->
+    <linearGradient id="grad-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#cf9f7a" stop-opacity="0.7"/>
+      <stop offset="30%"  stop-color="#5A376F" stop-opacity="0.8"/>
+      <stop offset="65%"  stop-color="#8352a1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#B58763" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Scanning line gradient (glow sweep) -->
+    <linearGradient id="grad-scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#cf9f7a" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#cf9f7a" stop-opacity="0.06"/>
+      <stop offset="50%"  stop-color="#cf9f7a" stop-opacity="0.13"/>
+      <stop offset="55%"  stop-color="#cf9f7a" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#cf9f7a" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- === FILTERS === -->
+    <!-- Overall window shadow + purple/ochre ambient glow -->
+    <filter id="f-shadow" x="-4%" y="-4%" width="108%" height="116%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000000" flood-opacity="0.95"/>
+      <feDropShadow dx="0" dy="4"  stdDeviation="16" flood-color="#5A376F"  flood-opacity="0.30"/>
+      <feDropShadow dx="0" dy="0"  stdDeviation="6"  flood-color="#cf9f7a"  flood-opacity="0.18"/>
+    </filter>
+
+    <!-- Ochre text glow -->
+    <filter id="f-ochre-glow" x="-8%" y="-40%" width="116%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Green text glow -->
+    <filter id="f-green-glow" x="-8%" y="-40%" width="116%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- === STYLES === -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+
+      .mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code',
+                     ui-monospace, Menlo, Monaco, Consolas, monospace;
+      }
+
+      /* ── CURSOR BLINK ── */
+      @keyframes blink {
+        0%, 48%  { opacity: 1; }
+        50%, 100%{ opacity: 0; }
+      }
+      .cursor { animation: blink 0.8s step-end infinite; }
+
+      /* ── PULSE dot ── */
+      @keyframes pulse {
+        0%,100% { opacity: 1;    transform: scale(1);    }
+        50%      { opacity: 0.3;  transform: scale(0.85); }
+      }
+      .pulse-dot {
+        animation: pulse 2s ease-in-out infinite;
+        transform-origin: 12px 10.5px;
+      }
+
+      /* ── SCAN LINE sweep ── */
+      @keyframes scan {
+        0%   { transform: translateY(-380px); }
+        100% { transform: translateY(380px);  }
+      }
+      .scan-line { animation: scan 5s linear infinite; }
+
+      /* ─────────────────────────────────────────────
+         TYPING ANIMATION — 3 roles cycling over 18s
+         Phase 0 (role1): 0s–5s  type-in, 5s–7s hold, 7s–8s erase
+         Phase 1 (role2): 8s–13s type-in, 13s–15s hold, 15s–16s erase
+         Phase 2 (role3): 16s–17.5s type-in, 17.5s–18s hold → restart
+         ───────────────────────────────────────────── */
+
+      /* Clip widths for each role (text reveal) */
+      @keyframes clip1-w {
+        0%      { width: 0;   }
+        27.7%   { width: 510; }   /* type complete @ 5s  */
+        38.8%   { width: 510; }   /* hold to 7s           */
+        44.4%   { width: 0;   }   /* erase by 8s          */
+        100%    { width: 0;   }
+      }
+      @keyframes clip2-w {
+        0%      { width: 0;   }
+        44.3%   { width: 0;   }
+        72.2%   { width: 380; }   /* type complete @ 13s  */
+        83.3%   { width: 380; }   /* hold to 15s          */
+        88.8%   { width: 0;   }   /* erase by 16s         */
+        100%    { width: 0;   }
+      }
+      @keyframes clip3-w {
+        0%      { width: 0;   }
+        88.8%   { width: 0;   }
+        96.6%   { width: 355; }   /* type complete @17.5s */
+        100%    { width: 355; }   /* hold to 18s (loop)   */
+      }
+
+      /* Role visibility (show only the active one) */
+      @keyframes vis1 {
+        0%,44.3%  { opacity: 1; }
+        44.4%,100%{ opacity: 0; }
+      }
+      @keyframes vis2 {
+        0%,44.3%   { opacity: 0; }
+        44.4%,88.7%{ opacity: 1; }
+        88.8%,100% { opacity: 0; }
+      }
+      @keyframes vis3 {
+        0%,88.7%  { opacity: 0; }
+        88.8%,100%{ opacity: 1; }
+      }
+
+      .role1 { animation: vis1 18s linear infinite; }
+      .role2 { animation: vis2 18s linear infinite; }
+      .role3 { animation: vis3 18s linear infinite; }
+
+      /* Cursor x positions per role (follows typing head) */
+      @keyframes cx1 {
+        0%      { x: 48;  }
+        27.7%   { x: 560; }
+        38.8%   { x: 560; }
+        44.4%   { x: 48;  }
+        100%    { x: 48;  }
+      }
+      @keyframes cx2 {
+        0%,44.3%{ x: 48;  }
+        72.2%   { x: 430; }
+        83.3%   { x: 430; }
+        88.8%   { x: 48;  }
+        100%    { x: 48;  }
+      }
+      @keyframes cx3 {
+        0%,88.7%{ x: 48;  }
+        96.6%   { x: 402; }
+        100%    { x: 402; }
+      }
+
+      .cur1 { animation: cx1 18s linear infinite; }
+      .cur2 { animation: cx2 18s linear infinite; }
+      .cur3 { animation: cx3 18s linear infinite; }
+    </style>
+
+    <!-- === CLIP PATHS (text reveal) === -->
+    <clipPath id="cp1">
+      <rect y="-30" height="60">
+        <animate attributeName="width"
+                 values="0;510;510;0;0"
+                 keyTimes="0;0.277;0.388;0.444;1"
+                 dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="cp2">
+      <rect y="-30" height="60">
+        <animate attributeName="width"
+                 values="0;0;380;380;0;0"
+                 keyTimes="0;0.443;0.722;0.833;0.888;1"
+                 dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="cp3">
+      <rect y="-30" height="60">
+        <animate attributeName="width"
+                 values="0;0;355;355"
+                 keyTimes="0;0.888;0.966;1"
+                 dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- ════════════════════════════════════════
+       WINDOW CHROME
+  ════════════════════════════════════════ -->
+  <!-- Outer glow window -->
+  <g filter="url(#f-shadow)">
+    <rect x="18" y="14" width="864" height="352" rx="16" fill="url(#grad-bg)"/>
+    <rect x="18" y="14" width="864" height="352" rx="16" stroke="url(#grad-border)" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Title bar -->
+  <rect x="18" y="14" width="864" height="46" rx="16" fill="url(#grad-titlebar)"/>
+  <!-- bottom border on titlebar -->
+  <line x1="18" y1="60" x2="882" y2="60" stroke="#2a1e3a" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="46"  cy="37" r="7" fill="#FF5F56" stroke="#cc4c43" stroke-width="0.8"/>
+  <circle cx="68"  cy="37" r="7" fill="#FFBD2E" stroke="#d89f22" stroke-width="0.8"/>
+  <circle cx="90"  cy="37" r="7" fill="#27C93F" stroke="#1fa830" stroke-width="0.8"/>
+
+  <!-- Session title in titlebar -->
+  <text x="450" y="44" text-anchor="middle" class="mono"
+        font-size="12" font-weight="500" fill="#6b7280" letter-spacing="0.6">
+    bash — murtaza@lyntica-node: ~/production — 100×28
+  </text>
+
+  <!-- LIVE status pill (right side) -->
+  <g transform="translate(712, 26)">
+    <rect x="0" y="0" width="148" height="22" rx="11" fill="#17181e" stroke="#5A376F" stroke-width="1"/>
+    <circle cx="14" cy="11" r="4" fill="#10b981" class="pulse-dot"/>
+    <text x="26" y="15.5" class="mono" font-size="9.5" font-weight="700" fill="#10b981" letter-spacing="1">SYSTEM ONLINE</text>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       SCAN LINE OVERLAY (atmospheric effect)
+  ════════════════════════════════════════ -->
+  <clipPath id="cp-window">
+    <rect x="18" y="60" width="864" height="306"/>
+  </clipPath>
+  <rect x="18" y="60" width="864" height="306" fill="url(#grad-scan)" clip-path="url(#cp-window)" class="scan-line"/>
+
+  <!-- ════════════════════════════════════════
+       LINE 1 — Command prompt (static)
+  ════════════════════════════════════════ -->
+  <g transform="translate(36, 108)">
+    <text class="mono" font-size="13.5" font-weight="700" fill="#cf9f7a" filter="url(#f-ochre-glow)">murtaza@lyntica-node</text>
+    <text x="196" class="mono" font-size="13.5" fill="#6b7280">:</text>
+    <text x="206" class="mono" font-size="13.5" font-weight="600" fill="#B58763">~/production</text>
+    <text x="328" class="mono" font-size="13.5" fill="#f4f4f6">$</text>
+    <text x="348" class="mono" font-size="13.5" fill="#a1a1aa">cat engineer_profile.json</text>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       LINE 2 — JSON output block
+  ════════════════════════════════════════ -->
+  <g transform="translate(36, 138)">
+    <text class="mono" font-size="12.5" fill="#4b5563">{</text>
+
+    <text x="20"  y="22"  class="mono" font-size="12" fill="#6b7280">"name":</text>
+    <text x="86"  y="22"  class="mono" font-size="12" font-weight="700" fill="#cf9f7a" filter="url(#f-ochre-glow)">"Murtaza Ali Khan"</text><text x="280" y="22" class="mono" font-size="12" fill="#4b5563">,</text>
+
+    <text x="20"  y="42"  class="mono" font-size="12" fill="#6b7280">"role":</text>
+    <text x="82"  y="42"  class="mono" font-size="12" fill="#f4f4f6">"Lead Data Scientist at Lyntica"</text><text x="408" y="42" class="mono" font-size="12" fill="#4b5563">,</text>
+
+    <text x="20"  y="62"  class="mono" font-size="12" fill="#6b7280">"focus":</text>
+    <text x="92"  y="62"  class="mono" font-size="12" fill="#38bdf8">["MLOps", "Computer Vision", "AI Systems", "Python Architecture"]</text><text x="628" y="62" class="mono" font-size="12" fill="#4b5563">,</text>
+
+    <text x="20"  y="82"  class="mono" font-size="12" fill="#6b7280">"availability":</text>
+    <text x="144" y="82"  class="mono" font-size="12" font-weight="700" fill="#10b981" filter="url(#f-green-glow)">"OPEN for roles &amp; consulting"</text>
+
+    <text x="0"   y="102" class="mono" font-size="12.5" fill="#4b5563">}</text>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       LINE 3 — Second prompt (init_runtime)
+  ════════════════════════════════════════ -->
+  <g transform="translate(36, 268)">
+    <text class="mono" font-size="13.5" font-weight="700" fill="#cf9f7a" filter="url(#f-ochre-glow)">murtaza@lyntica-node</text>
+    <text x="196" class="mono" font-size="13.5" fill="#6b7280">:</text>
+    <text x="206" class="mono" font-size="13.5" font-weight="600" fill="#B58763">~/production</text>
+    <text x="328" class="mono" font-size="13.5" fill="#f4f4f6">$</text>
+    <text x="348" class="mono" font-size="13.5" fill="#a1a1aa">./print_roles.sh</text>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       LINE 4 — ANIMATED TYPING AREA
+  ════════════════════════════════════════ -->
+  <g transform="translate(36, 308)">
+    <!-- Chevron prompt -->
+    <text class="mono" font-size="19" font-weight="800" fill="#B58763">❯❯❯</text>
+
+    <!-- ── Role 1: Murtaza Ali | AI & Data Science Engineer ── -->
+    <g class="role1">
+      <text x="48" class="mono" font-size="19" font-weight="700" fill="#cf9f7a"
+            filter="url(#f-ochre-glow)" clip-path="url(#cp1)">
+        Murtaza Ali | AI &amp; Data Science Engineer
+      </text>
+      <!-- traveling cursor -->
+      <rect y="-17" width="10" height="21" rx="2" fill="#cf9f7a" class="cursor">
+        <animate attributeName="x"
+                 values="48;560;560;48;48"
+                 keyTimes="0;0.277;0.388;0.444;1"
+                 dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ── Role 2: Python Architecture Specialist ── -->
+    <g class="role2">
+      <text x="48" class="mono" font-size="19" font-weight="700" fill="#cf9f7a"
+            filter="url(#f-ochre-glow)" clip-path="url(#cp2)">
+        Python Architecture Specialist
+      </text>
+      <rect y="-17" width="10" height="21" rx="2" fill="#cf9f7a" class="cursor">
+        <animate attributeName="x"
+                 values="48;48;430;430;48;48"
+                 keyTimes="0;0.443;0.722;0.833;0.888;1"
+                 dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ── Role 3: Lead Data Scientist at Lyntica ── -->
+    <g class="role3">
+      <text x="48" class="mono" font-size="19" font-weight="700" fill="#cf9f7a"
+            filter="url(#f-ochre-glow)" clip-path="url(#cp3)">
+        Lead Data Scientist at Lyntica
+      </text>
+      <rect y="-17" width="10" height="21" rx="2" fill="#cf9f7a" class="cursor">
+        <animate attributeName="x"
+                 values="48;48;402;402"
+                 keyTimes="0;0.888;0.966;1"
+                 dur="18s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       FOOTER — Tech telemetry strip
+  ════════════════════════════════════════ -->
+  <g transform="translate(36, 352)">
+    <text class="mono" font-size="10" fill="#374151" letter-spacing="0.3">
+      STACK: [PyTorch ▪ TensorFlow ▪ YOLOv8 ▪ FastAPI ▪ Docker ▪ Spark ▪ n8n]  ▪  NODE: PROD-GPU-A100  ▪  LATENCY: 14ms  ▪  © murtazakhanpro
+    </text>
+  </g>
+</svg>
