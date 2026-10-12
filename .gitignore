@@ -1,0 +1,14 @@
+# ==============================================================================
+# MURTAZA ALI KHAN — STRICT PROPRIETARY REPOSITORY GITIGNORE
+# Only README.md, LICENSE, and .gitignore are public repository files.
+# All local assets, services, gig decks, and datasets are strictly ignored.
+# ==============================================================================
+
+# Ignore everything in repository by default
+*
+.*
+
+# Whitelist ONLY public files
+!README.md
+!LICENSE
+!.gitignore
