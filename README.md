@@ -1,13 +1,8 @@
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
+    <img src="Murtaza_Linkedin_Cover.png"  width="100%" />
   </a>
-</p>
 
-  <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
-  </a>
-</p>
 
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
@@ -24,6 +19,13 @@
   </a>
   <a href="https://wa.me/?text=Hi%20Murtaza%2C%20I%20reviewed%20your%20portfolio%20(murtazaalikhan.com)%20and%20GitHub%20profile.%20I%20would%20like%20to%20connect%20with%20you." target="_blank">
     <img src="https://img.shields.io/badge/WHATSAPP-CHAT%20NOW-141414?style=for-the-badge&logo=whatsapp&logoColor=cf9f7a&labelColor=20212b" alt="Direct WhatsApp CTA" />
+  </a>
+</p>
+
+</p>
+
+  <a href="https://www.murtazaalikhan.com" target="_blank">
+    <img src="./terminal.svg" alt="Murtaza Ali Khan — Animated Terminal Banner" width="100%" />
   </a>
 </p>
 
