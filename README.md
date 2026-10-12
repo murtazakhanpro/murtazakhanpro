@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.murtazaalikhan.com" target="_blank">
-    <img src="./Murtaza_Linkedin_Cover.png" alt="Murtaza Ali Khan — LinkedIn Banner" width="100%" />
+    <img src="Murtaza_Linkedin_Cover.png" alt="Murtaza Ali Khan — LinkedIn Banner" width="100%" />
   </a>
 </p>
 
